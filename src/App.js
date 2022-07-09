@@ -42,6 +42,7 @@ function App() {
 
   return (
     <>
+    <div style = {{color:"green"}} class="header">Weather App</div>
     <form onSubmit = {handleSubmit}>
         <input type="text" placeholder="City" value={searchInput} onChange = {(e) => setSearchInput(e.target.value)}></input>
         <button>Search</button>
